@@ -28,3 +28,37 @@ A simple JavaScript program that generates random messages by combining greeting
 
    ```bash
    git clone https://github.com/your-username/message-generator.git
+
+
+### USAGE
+
+- Open index.html in your web browser.
+- Click the "Generate Message" button to see a random message.
+
+### Contributing
+
+Contributions are welcome! Follow these steps to contribute:
+
+- Fork the repository.
+
+- Create a new branch:
+
+  git checkout -b feature/new-feature
+  
+  git add .
+  git commit -m "Add: New feature"
+
+  git push origin feature/new-feature
+
+### License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+
+
+
+
+
+   
