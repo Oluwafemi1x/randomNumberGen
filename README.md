@@ -45,12 +45,8 @@ Contributions are welcome! Follow these steps to contribute:
   
   ```bash
   git checkout -b feature/new-feature
-
-  ```bash
   git add .
   git commit -m "Add: New feature"
-
-   ```bash
   git push origin feature/new-feature
 
 ### License
