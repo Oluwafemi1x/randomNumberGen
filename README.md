@@ -42,12 +42,15 @@ Contributions are welcome! Follow these steps to contribute:
 - Fork the repository.
 
 - Create a new branch:
-
-  git checkout -b feature/new-feature
   
+  ```bash
+  git checkout -b feature/new-feature
+
+  ```bash
   git add .
   git commit -m "Add: New feature"
 
+   ```bash
   git push origin feature/new-feature
 
 ### License
