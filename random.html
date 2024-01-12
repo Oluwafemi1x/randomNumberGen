@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message Generator</title>
+  <style>
+    body {
+      background-color: aqua;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Random Message Generator</h1>
+  <p id="message"></p>
+  <button onclick="generateMessage()">Generate Message</button>
+
+  <script>
+    // Arrays of different phrases for each part of the message
+    const greetings = ['Hello', 'Hi', 'Hey', 'Greetings'];
+    const subjects = ['world', 'friend', 'everyone', 'you'];
+    const actions = ['have a great day', 'enjoy your time', 'take care', 'stay awesome'];
+
+    function getRandomElement(arr) {
+      // Returns a random element from the given array
+      const randomIndex = Math.floor(Math.random() * arr.length);
+      return arr[randomIndex];
+    }
+
+    function generateMessage() {
+      // Generate a random message by combining phrases from different arrays
+      const greeting = getRandomElement(greetings);
+      const subject = getRandomElement(subjects);
+      const action = getRandomElement(actions);
+
+      const message = `${greeting}, ${subject}! ${action}.`;
+
+      // Display the message on the HTML page
+      document.getElementById('message').textContent = message;
+    }
+  </script>
+</body>
+</html>
